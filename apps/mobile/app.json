@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "ShadowTech",
+    "slug": "shadowtech",
+    "scheme": "shadowtech",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shadowtech.app"
+    },
+    "android": {
+      "package": "com.shadowtech.app"
+    }
+  }
+}
